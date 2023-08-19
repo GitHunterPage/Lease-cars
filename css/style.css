@@ -1,1 +1,344 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(../imgLeasingCars/bg.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+}
+.menu-list{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.menu-list li{
+    list-style-type: none;
+}
+li:nth-child(2){
+    margin-left: 413px;
+}
+.logo{
+    margin: 0;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.title{
+    color:#FFF;
+    font-size: 96px;
+    font-weight: 700;
+    margin: 152px 162px 0;
+}
+.btn{
+    color:#FFF;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 23px 113px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #151515;
+    position: absolute;
+    margin: 38px 360px 0;
+}
+.why-lease{
+    color: #151515;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 150px ;
+    text-align: center;
+}
+.items{
+    display: flex;
+    margin-top: 50px;
+}
+img{
+    margin: 0 60px;
+}
+img:not(:first-child){
+    padding-left: 40px;
+}
+.title-text{
+    color:#151515;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.logo-title{
+    display: flex;
+}
+h2:first-child{
+    margin-left: 65px;
+}
+h2:nth-child(2){
+    margin-left: 128px;
+}
+h2:nth-child(3){
+    margin-left: 100px;
+}
+h2:nth-child(4){
+    margin-left: 131px;
+}
+.descr{
+    display: flex;
+    justify-content: space-between;
+}
+.descr-text{
+    color:#151515;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+}
+.descr-block{
+    width: 270px;
+    height: 84px;
+}
+.how_work{
+    color:#151515;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 150px;
+    text-align: center;
+}
+.how_work-txt{
+    width: 580px;
+    height: 126px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.rules{
+    color:#151515;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 310px;
+    margin-top: 50px;
+}
+.rules-descr1 , 
+.rules-descr2 , 
+.rules-descr3 {
+    display: flex;
+    width: 510px;
+    height: 100px;
+    align-items: center;
+    gap: 140px;
+    margin-left: 380px;
+}
+.rule{
+    margin: 0;
+}
+.rules-descr1{
+    margin-top: 50px;
+}
+.rules-descr2 , 
+.rules-descr3 {
+    margin-top: 40px;
+}
+.advice-txt{
+    color:#151515;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+}
+.advice{
+    width: 580px;
+    height: 63px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.welcome{
+    color: #151515;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-top: 150px;
+}
+.find-out{
+    color:#151515;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+.video-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.important-title{
+    color:#151515;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-top: 150px;
+}
+.important-block{
+    width: 580px;
+    height: 63px;
+    margin: 0;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.consider-block{
+    display: flex;
+    margin-top: 50px;
+}
+.consider-item{
+    width: 270px;
+    height: 233px;
+}
+.consider-item img {
+    margin: 0;
+}
+.consider-item:not(:first-child){
+    margin-left: 40px;
+}
+.cons-txt{
+    margin-top: 20px;
+}
+.footer{
+    width: 1920px;
+    height: 545px;
+    margin: 0 auto;
+    background-color: #151515;
+    margin-top: 267px;
+}
+.container-footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer-descr{
+    display: flex;
+    padding-top: 50px;
+}
+.footer-block{
+    width: 107px;
+    height: 172px;
+    margin-left: 60px;
+}
+.footer-block2{
+    width: 125px;
+    height: 172px;
+    margin-left: 194px;
+}
+.footer-block3 {
+    width: 225px;
+    height: 131px;
+    margin-left: 137px;
+}
+.footer-block4{
+    width: 73px;
+    height: 172px;
+    margin-left: 159px;
+}
+.footer-block h2,
+.footer-block2 h2,
+.footer-block3 h2,
+.footer-block4 h2 {
+    margin: 0;
+    color:#FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.block-txt{
+    color:#FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px; 
+    padding-top: 20px;
+}
+.footertxt-link{
+    color: #FFF;
+    text-decoration: none;
+}
+.title-link{
+    text-decoration: none;
+}
+.img-app{
+    margin: 0;
+    padding: 0;
+}
+.apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.appstore{
+    margin-right: 42px;
+}
+.question{
+    align-items: center;
+    margin-top: 52px;
+}
+.question-text{
+    color:#FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.tell{
+    color:#FFF;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+.footer-link{
+    color:#FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-decoration: none; 
+}
+.footer-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.footer-link:not(:first-child){
+    padding-left: 40px;
+}
+.fade-in {
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out; 
+}
+  
+.fade-in.active {
+    opacity: 1; 
+}
+
+
+
+
+
+
+
+
 
