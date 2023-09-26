@@ -8,13 +8,14 @@
 }
 body{
     font-family: 'Inter', sans-serif;
-    height: 100%;
 }
 .container{
     width: 1200px;
     margin: 0 auto;
 }
 .header{
+    top: 0;
+    left: 0;
     background-image: url(../imgLeasingCars/bg.png);
     backgrounf-size: cover;
     backgrounf-position: center;
