@@ -18,7 +18,7 @@ body{
     height: 1080px;
     background-image: url(../imgLeasingCars/bg.png);
     background-repeat: no-repeat;
-    margin: 0 auto;
+    margin-left:25%;
 }
 .menu-list{
     display: flex;
