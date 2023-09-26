@@ -14,11 +14,9 @@ body{
     margin: 0 auto;
 }
 .header{
-    width: 100%;
-    height: 100vh;
+    width: 1920px;
+    height: 1080px;
     background-image: url(../imgLeasingCars/bg.png);
-    backgrounf-size: cover;
-    backgrounf-position: center;
     background-repeat: no-repeat;
     margin: 0 auto;
 }
